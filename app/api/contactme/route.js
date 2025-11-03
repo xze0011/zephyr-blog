@@ -17,7 +17,7 @@ export const POST = handleError(async (req) => {
   }
 
   var content = `
-Hi Ming,
+Hi Zephyr,
 - First Name: ${firstname}
 - Last Name: ${lastname}
 - Email: ${email}
@@ -29,7 +29,7 @@ Hi Ming,
     to: recipient,
     subject: emailSubject,
     text: content,
-    bcc: from
+    bcc: from,
   };
 
   const transporter = nodemailer.createTransport({
@@ -38,8 +38,8 @@ Hi Ming,
     secure: true,
     auth: {
       user: process.env.GMAIL_ACCOUNT,
-      pass: process.env.GMAIL_APP_KEY
-    }
+      pass: process.env.GMAIL_APP_KEY,
+    },
   });
 
   try {
