@@ -1,15 +1,31 @@
 "use client";
 
 import {
-  FaHtml5,
-  FaCss3,
-  FaJs,
-  FaReact,
-  FaFigma,
-  FaNodeJs,
+  FaDatabase,
+  FaJava,
 } from "react-icons/fa";
 
-import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import {
+  SiAmazonaws,
+  SiAmazondynamodb,
+  SiCsharp,
+  SiDocker,
+  SiDotnet,
+  SiGit,
+  SiGithubactions,
+  SiGithubcopilot,
+  SiGraphql,
+  SiJavascript,
+  SiMicrosoftazure,
+  SiMui,
+  SiMysql,
+  SiNextdotjs,
+  SiPostgresql,
+  SiReact,
+  SiReactquery,
+  SiRedux,
+  SiTypescript,
+} from "react-icons/si";
 
 // about data
 const about = {
@@ -44,12 +60,18 @@ const about = {
 const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My experience",
-  description: "",
+  description:
+    "5 years of full-stack engineering experience across high-traffic e-commerce and digital health products.",
   items: [
     {
+      company: "JB Hi-Fi Head Office",
+      position: "Full Stack Software Engineer",
+      duration: "Summer 2025 - Present",
+    },
+    {
       company: "Arden Street Labs",
-      position: "Fullstack Developer",
-      duration: "2021 - Present",
+      position: "Full Stack Software Engineer",
+      duration: "Winter 2021 - Spring 2024",
     },
     {
       company: "Envision IT",
@@ -99,37 +121,92 @@ const skills = {
   description: "",
   skillList: [
     {
-      icon: <FaHtml5 />,
-      name: "html 5",
+      icon: <SiCsharp />,
+      name: "c#",
     },
     {
-      icon: <FaCss3 />,
-      name: "css 3",
-    },
-    {
-      icon: <FaJs />,
+      icon: <SiJavascript />,
       name: "javascript",
     },
     {
-      icon: <FaReact />,
-      name: "react.js",
+      icon: <SiTypescript />,
+      name: "typescript",
+    },
+    {
+      icon: <FaJava />,
+      name: "java",
+    },
+    {
+      icon: <SiReact />,
+      name: "react",
     },
     {
       icon: <SiNextdotjs />,
       name: "next.js",
     },
-
     {
-      icon: <SiTailwindcss />,
-      name: "tailwind.css",
+      icon: <SiRedux />,
+      name: "redux",
     },
     {
-      icon: <FaNodeJs />,
-      name: "node.js",
+      icon: <SiReactquery />,
+      name: "react query",
     },
     {
-      icon: <FaFigma />,
-      name: "figma",
+      icon: <SiMui />,
+      name: "mui",
+    },
+    {
+      icon: <SiDotnet />,
+      name: ".net",
+    },
+    {
+      icon: <SiGraphql />,
+      name: "graphql",
+    },
+    {
+      icon: <FaDatabase />,
+      name: "sql",
+    },
+    {
+      icon: <SiMysql />,
+      name: "mysql",
+    },
+    {
+      icon: <SiPostgresql />,
+      name: "postgresql",
+    },
+    {
+      icon: <FaDatabase />,
+      name: "cosmos db",
+    },
+    {
+      icon: <SiAmazondynamodb />,
+      name: "dynamodb",
+    },
+    {
+      icon: <SiMicrosoftazure />,
+      name: "azure",
+    },
+    {
+      icon: <SiAmazonaws />,
+      name: "aws",
+    },
+    {
+      icon: <SiGit />,
+      name: "git",
+    },
+    {
+      icon: <SiDocker />,
+      name: "docker",
+    },
+    {
+      icon: <SiGithubactions />,
+      name: "github actions",
+    },
+    {
+      icon: <SiGithubcopilot />,
+      name: "github copilot/codex",
     },
   ],
 };

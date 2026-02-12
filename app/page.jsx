@@ -4,33 +4,31 @@ import Link from "next/link";
 
 // components
 import Social from "@/components/Social";
-import Photo from "@/components/Photo";
 import Stats from "@/components/Stats";
 
 const Home = () => {
   return (
     <section className="h-full">
       <div className="container mx-auto h-full">
-        <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
+        <div className="flex justify-center xl:pt-10 xl:pb-24">
           {/* text */}
-          <div className="text-center xl:text-left order-2 xl:order-none">
+          <div className="w-full max-w-[980px] text-center xl:text-left">
             <span className="text-xl">Fullstack Software Engineer</span>
             <h1 className="h1 mb-6">
-              Hello I am <br /> <span className="text-accent">Zephyr Zeng</span>
+              Hello I am <span className="block text-accent">Zephyr Zeng</span>
             </h1>
-            <p className="max-w-[500px] mb-9 text-white/80">
-              A proficient React, Next.js, Node.js, .Net and Python Full-stack
-              SE(Saas focused), experienced with SQL, MongoDB, CICD pipelines,
-              Docker, AWS and Azure Cloud.
+            <p className="max-w-[760px] mb-8 text-white/80 mx-auto xl:mx-0">
+              Product-driven software engineer, focused on building practical,
+              high-impact solutions that deliver real business value while
+              contributing positively to the community.
             </p>
-            <p className="max-w-[500px] mb-9 text-white/80">
-              A lifelong learner, regularly sharing weekly book reviews about
-              personal growth, psychology and life experiences.
+            <p className="max-w-[760px] mb-8 text-white/80 mx-auto xl:mx-0">
+              Lifelong learner and writer, sharing weekly insights on personal
+              growth, business biography and psychology through a wechat blog.
             </p>
-            <p className="max-w-[500px] mb-9 text-white/80">
-              Most importantly, a person with love and courage, always ready to
-              embrace the next challenge, willing to take risks and contribute
-              kindness to make the world a better place.
+            <p className="max-w-[760px] mb-8 text-white/80 mx-auto xl:mx-0">
+              Curious and growth-oriented, comfortable with uncertainty, open to
+              new challenges, and committed to continuous improvement.
             </p>
 
             <div className="flex flex-col xl:flex-row items-center gap-8">
@@ -53,10 +51,6 @@ const Home = () => {
                 />
               </div>
             </div>
-          </div>
-          {/* photo */}
-          <div className="order-1 xl:order-none mb-8 xl:mb-0">
-            <Photo />
           </div>
         </div>
       </div>

@@ -7,27 +7,29 @@ const services = [
   {
     num: "01",
     title: "Frontend",
-    description: "React.js, Next.js, Javascript, TypeScript, TailwindCSS etc.",
+    description:
+      "TypeScript, JavaScript, React, Next.js, Redux, React Query, React Hooks, MUI.",
     href: "",
   },
   {
     num: "02",
     title: "Backend",
     description:
-      "Node.js, .Net, Python, Express.js, MongoDB, SQL, RESTful API etc.",
+      ".NET, Java, Node.js, RESTful APIs, GraphQL, Azure Functions, Service Bus.",
     href: "",
   },
   {
     num: "03",
-    title: "DevOps",
-    description: "Docker, CI/CD, AWS, Azure, Vercel, Netlify etc.",
+    title: "Data & Cloud",
+    description:
+      "SQL, MySQL, PostgreSQL, Cosmos DB, DynamoDB, Azure, AWS, EC2, RDS, Lambda.",
     href: "",
   },
   {
     num: "04",
-    title: "Soft Skills",
+    title: "DevOps & Tooling",
     description:
-      "Agile Development, Problem-oriented, Teamwork, Time Management etc.",
+      "Git, Docker, CI/CD, GitHub Actions, ARM templates, CloudFormation, GitHub Copilot/Codex.",
     href: "",
   },
 ];
