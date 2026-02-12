@@ -6,24 +6,28 @@ import { usePathname } from "next/navigation";
 const links = [
   {
     name: "home",
-    path: "/"
+    path: "/",
   },
   {
     name: "tech stack",
-    path: "/services"
+    path: "/services",
   },
   {
     name: "experience",
-    path: "/resume"
+    path: "/resume",
   },
   // {
-  //   name: "work",
-  //   path: "/work"
+  //   name: "blog",
+  //   path: "/blog"
   // },
   {
+    name: "work",
+    path: "/work",
+  },
+  {
     name: "contact",
-    path: "/contact"
-  }
+    path: "/contact",
+  },
 ];
 
 const Nav = () => {
