@@ -34,15 +34,8 @@ const Home = () => {
             </p>
 
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Link
-                href="/Xiangming Zeng CV.pdf"
-                passHref
-                legacyBehavior
-              >
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+              <Link href="/Zephyr_Zeng_CV.pdf" passHref legacyBehavior>
+                <a target="_blank" rel="noopener noreferrer">
                   <Button
                     variant="outline"
                     size="lg"
