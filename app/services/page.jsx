@@ -29,7 +29,7 @@ const services = [
     num: "04",
     title: "DevOps & Tooling",
     description:
-      "Git, Docker, CI/CD, GitHub Actions, ARM templates, CloudFormation, GitHub Copilot/Codex.",
+      "Git, Docker, CI/CD, GitHub Actions, Terraform, ARM templates, CloudFormation, GitHub Copilot/Codex.",
     href: "",
   },
 ];
